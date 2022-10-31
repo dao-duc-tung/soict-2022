@@ -130,7 +130,5 @@ dmypy.json
 
 # Other
 .vscode
-examples/*/*
-!examples/*/*.ipynb
 tutorial/*
 !tutorial/*.ipynb
