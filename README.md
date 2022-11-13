@@ -4,9 +4,17 @@ This repository serves the tutorial session for SoICT 2022.
 
 SoICT 2022 is an international symposium covering significant research areas that include AI Foundations and Big Data, Network Communication and Security, Image and Natural Language Processing, Software Engineering and Digital Technology, Blockchain and Financial Technology trends.
 
-## Setup
+## Setup Wandb
 
-### Use Wandb cloud server
+There are 2 ways to setup your working environment
+
+- Option 1: To use Wandb cloud server
+- Option 2: To use self-hosted Wandb server
+
+I recommend you to use the option 1 to quickly start the tutorial.
+The option 2 is to setup your environment at local after you understand how Wandb's main features work.
+
+### Option 1: Wandb cloud server
 
 - Setup Wandb account
   - Create a Wandb account and login
@@ -20,7 +28,7 @@ SoICT 2022 is an international symposium covering significant research areas tha
     # Paste the API key when asked
     ```
 
-### Use self-hosted Wandb server
+### Option 2: Self-hosted Wandb server
 
 This section guides you to setup your own Wandb server.
 
@@ -55,10 +63,24 @@ This section guides you to setup your own Wandb server.
 
 You can:
 
-- Run tutorial at [tutorial/tutorial-01.ipynb](tutorial/tutorial-01.ipynb)
-- See project at [my Wandb project](https://wandb.ai/tungdao/soict-2022)
+- Run tutorial in the file [tutorial/tutorial-01.ipynb](tutorial/tutorial-01.ipynb) in this repo
+- See the project's result at [my Wandb project](https://wandb.ai/tungdao/soict-2022)
 
 ## Useful links
 
 - [SoICT 2022](https://soict.org/)
 - [Tutorial slides](https://docs.google.com/presentation/d/1kWUM4mDHcnzL_CmVukkxbc7AhOzjhju9RHC2fuZbJ6I/edit?usp=sharing)
+
+## License
+
+Distributed under the MIT License. See LICENSE for more information.
+
+## Contact
+
+Tung Dao - [LinkedIn](https://www.linkedin.com/in/tungdao17/)
+
+## Acknowledgements
+
+- [Weights & Biases](https://wandb.ai/site)
+- [ml-ops.org](https://ml-ops.org/)
+- [AIEngineer.net](https://aiengineer.net/)
