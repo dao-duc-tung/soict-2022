@@ -4,7 +4,14 @@ This repository serves the tutorial session for SoICT 2022.
 
 SoICT 2022 is an international symposium covering significant research areas that include AI Foundations and Big Data, Network Communication and Security, Image and Natural Language Processing, Software Engineering and Digital Technology, Blockchain and Financial Technology trends.
 
-## Setup Wandb
+## Quick start
+
+You need to do the following step to run the tutorial.
+
+1. Setup Wandb
+1. Run the tutorial
+
+### Setup Wandb
 
 There are 2 ways to setup your working environment
 
@@ -14,7 +21,7 @@ There are 2 ways to setup your working environment
 I recommend you to use the option 1 to quickly start the tutorial.
 The option 2 is to setup your environment at local after you understand how Wandb's main features work.
 
-### Option 1: Wandb cloud server
+#### Option 1: Wandb cloud server
 
 - Setup Wandb account
   - Create a Wandb account and login
@@ -28,7 +35,7 @@ The option 2 is to setup your environment at local after you understand how Wand
     # Paste the API key when asked
     ```
 
-### Option 2: Self-hosted Wandb server
+#### Option 2: Self-hosted Wandb server
 
 This section guides you to setup your own Wandb server.
 
@@ -59,12 +66,9 @@ This section guides you to setup your own Wandb server.
   docker volume rm wandb
   ```
 
-## Run tutorial
+### Run tutorial
 
-You can:
-
-- Run tutorial in the file [tutorial/tutorial-01.ipynb](tutorial/tutorial-01.ipynb) in this repo
-- See the project's result at [my Wandb project](https://wandb.ai/tungdao/soict-2022)
+Run tutorial at [tutorial/tutorial-01.ipynb](tutorial/tutorial-01.ipynb).
 
 ## Useful links
 
